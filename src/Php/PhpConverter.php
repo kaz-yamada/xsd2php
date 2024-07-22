@@ -24,6 +24,7 @@ use GoetasWebservices\Xsd\XsdToPhp\Php\Structure\PHPArg;
 use GoetasWebservices\Xsd\XsdToPhp\Php\Structure\PHPClass;
 use GoetasWebservices\Xsd\XsdToPhp\Php\Structure\PHPClassOf;
 use GoetasWebservices\Xsd\XsdToPhp\Php\Structure\PHPProperty;
+use GoetasWebservices\XML\XSDReader\Schema\Element\Sequence;
 use Psr\Log\LoggerInterface;
 
 class PhpConverter extends AbstractConverter
